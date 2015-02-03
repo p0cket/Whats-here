@@ -51,7 +51,7 @@
         } else {
 //            controller.controllerCategoryType = (CategoryType) btn.tag;
 //            controller.controllerListType = ListTypeCategory;
-            
+//        
         }
     }
 }
