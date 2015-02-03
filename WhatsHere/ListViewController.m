@@ -100,16 +100,19 @@
          MyPin.canShowCallout = YES;*/
         MyPin.highlighted = NO;
         MyPin.canShowCallout = YES;
-        if (pinCount ==1)
-        MyPin.image = [UIImage imageNamed:@"icon-bar-copia"];
-        if (pinCount ==2)
         MyPin.image = [UIImage imageNamed:@"icon-beer-copia"];
-        if (pinCount ==3)
-        MyPin.image = [UIImage imageNamed:@"icon-reel-film"];
-        if (pinCount ==4)
-        MyPin.image = [UIImage imageNamed:@"icon-restaurant"];
-        if (pinCount ==5)
-        MyPin.image = [UIImage imageNamed:@"icon-clinic"];
+        
+        
+//        if (pinCount ==1)
+//        MyPin.image = [UIImage imageNamed:@"icon-bar-copia"];
+//        if (pinCount ==2)
+//        MyPin.image = [UIImage imageNamed:@"icon-beer-copia"];
+//        if (pinCount ==3)
+//        MyPin.image = [UIImage imageNamed:@"icon-reel-film"];
+//        if (pinCount ==4)
+//        MyPin.image = [UIImage imageNamed:@"icon-restaurant"];
+//        if (pinCount ==5)
+//        MyPin.image = [UIImage imageNamed:@"icon-clinic"];
         MyPin.leftCalloutAccessoryView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"map-popup-pic.png"]];
         MyPin.rightCalloutAccessoryView = [UIButton buttonWithType:UIButtonTypeDetailDisclosure];
         pinCount++;
