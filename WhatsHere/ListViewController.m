@@ -47,6 +47,7 @@
 
 -(void)addAnnotationAtLat:(float)lat long:(float)longi
 {
+    //  for the pins on the map
     MKCoordinateRegion Bridge = { {0.0, 0.0} , {0.0, 0.0} };
     Bridge.center.latitude = lat;
     Bridge.center.longitude = longi;
@@ -195,6 +196,7 @@
 }
 
 #pragma mark UITableView Datasource/Delegate
+//table view
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
 {
@@ -224,6 +226,12 @@
         UIImageView *imgIcon = (UIImageView *)[cell.contentView viewWithTag:10];
         int value = arc4random()%7+2;
         imgIcon.image = [UIImage imageNamed:[self getIconNameForCategory:value]];
+        // replace with only beer icon
+        
+        UITextField *textField = (UITextField *)[cell.contentView viewWithTag:9];
+        textField.text = @"Hey guys";
+        //  Code changed
+        //  alex@viewthespace.com     
     }
     else
     {
