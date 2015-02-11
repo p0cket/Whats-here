@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "Bar.h"
 
 @interface ViewController ()
 
@@ -25,5 +26,21 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+
+-(void)doSomething{
+    Bar* bar = [[Bar alloc] init];
+
+}
+
+//-(void)viewWillAppear:(BOOL)animated{
+ //   [self fetchBars];
+//}
+
+
+//-(void)fetchBars{
+//    //calls parse (asynchronously)
+//    //gets back a bunch of bars
+//    self.bars = //the bunch of bars i just got
+//}
 
 @end

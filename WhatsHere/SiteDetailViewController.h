@@ -10,5 +10,10 @@
 #import <MapKit/MapKit.h>
 
 @interface SiteDetailViewController : ParentViewController
+@property (weak, nonatomic) IBOutlet UILabel *barName;
+@property (weak, nonatomic) IBOutlet UILabel *address;
+
+@property (weak, nonatomic) IBOutlet UILabel *phoneNumberLabel;
+
 
 @end

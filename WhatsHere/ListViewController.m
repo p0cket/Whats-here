@@ -207,6 +207,11 @@
 {
     // return arrOfOptions.count;
     return 5;
+    
+    //Fetch, catch, display
+    //bar - name, fullAddress, phoneNumber
+    
+    //user - barsWithDealsUsed [bar_id_1, bar_id_3, bar_id_24]
 }
 
 
@@ -229,9 +234,10 @@
         // replace with only beer icon
         
         UITextField *textField = (UITextField *)[cell.contentView viewWithTag:9];
-        textField.text = @"Hey guys";
+        NSString* row = [[NSNumber numberWithInteger:indexPath.row] stringValue];
+        textField.text = [NSString stringWithFormat:@"%@%@", @"Hey guys", row];
         //  Code changed
-        //  alex@viewthespace.com     
+        //  alex@viewthespace.com
     }
     else
     {

@@ -38,6 +38,7 @@
 		5BC0278B19914644005F037E /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BC0278A19914644005F037E /* SettingsViewController.m */; };
 		5BC0278D199149D5005F037E /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BC0278C199149D5005F037E /* MapKit.framework */; };
 		5BC0279319914C3E005F037E /* Annotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BC0279219914C3E005F037E /* Annotation.m */; };
+		DBF627DD1A8ACD5A00A747BA /* Bar.m in Sources */ = {isa = PBXBuildFile; fileRef = DBF627DC1A8ACD5A00A747BA /* Bar.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -104,6 +105,8 @@
 		5BC0278C199149D5005F037E /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		5BC0279119914C3E005F037E /* Annotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Annotation.h; sourceTree = "<group>"; };
 		5BC0279219914C3E005F037E /* Annotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Annotation.m; sourceTree = "<group>"; };
+		DBF627DC1A8ACD5A00A747BA /* Bar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Bar.m; path = whatshere/Bar.m; sourceTree = SOURCE_ROOT; };
+		DBF627DE1A8ACD6E00A747BA /* Bar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Bar.h; path = ../Bar.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -171,6 +174,8 @@
 				5B2A10DF198FE75D005F8E06 /* Main.storyboard */,
 				5B2A10E2198FE75D005F8E06 /* ViewController.h */,
 				5B2A10E3198FE75D005F8E06 /* ViewController.m */,
+				DBF627DE1A8ACD6E00A747BA /* Bar.h */,
+				DBF627DC1A8ACD5A00A747BA /* Bar.m */,
 				5BC0278819914639005F037E /* Settings */,
 				5BC0278419913EBA005F037E /* Site Detail */,
 				5BC0278019913C05005F037E /* Categories */,
@@ -428,6 +433,7 @@
 				5B4026D419912295008A7A30 /* ProfileViewController.m in Sources */,
 				5BC0278719913ECE005F037E /* SiteDetailViewController.m in Sources */,
 				5B2A112B198FE914005F8E06 /* ECSlidingAnimationController.m in Sources */,
+				DBF627DD1A8ACD5A00A747BA /* Bar.m in Sources */,
 				5B2A1136198FED19005F8E06 /* SignUpViewController.m in Sources */,
 				5B2A112A198FE914005F8E06 /* ECPercentDrivenInteractiveTransition.m in Sources */,
 			);
